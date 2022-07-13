@@ -11,5 +11,7 @@ public class MainApp {
         driver.get("https://www.techno.study/");
 
 
+       // elamBul(id den ismi baslik 1, name den)
+       // elemanBul(class="footer-top footer-container contain-lg-4 fluid")
     }
 }
