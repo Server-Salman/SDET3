@@ -4,14 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MainApp {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.techno.study/");
 
 
-       // elamBul(id den ismi baslik 1, name den)
-       // elemanBul(class="footer-top footer-container contain-lg-4 fluid")
+        Thread.sleep(3000);
+        driver.quit();
     }
 }
