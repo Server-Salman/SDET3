@@ -1,0 +1,7 @@
+1- https://formsmarts.com/form/yu?mode=h5 sitesini açın
+2- Business i çekleyin.  [id$='4586_0']   [type='radio'][value='Business']
+3- discover XYZ ye tıklatın ve online Advertising i seçin  [id='u_1fG_4588']   [value='Online Advertising']
+4- Every day i seçin   [id='u_1fG_89585_0']
+5- Good u seçin  [type='radio'][value='Good']
+6- using XYZ yi tıklatın ve 3.seçeneği seçin  [id='u_1fG_4597']     [value*='month'] [id='u_1fG_4597'] > :nth-child(4)
+
