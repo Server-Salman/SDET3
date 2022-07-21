@@ -5,12 +5,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 
 import java.time.Duration;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class BaseStaticDriver {
     public static WebDriver driver;
 
     static
     {
+        Logger logger = Logger.getLogger("");
+        logger.setLevel(Level.SEVERE);
+
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
         System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         driver = new ChromeDriver();

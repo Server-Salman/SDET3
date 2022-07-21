@@ -1,0 +1,13 @@
+Senaryo
+1- https://www.etsy.com/ sitesine gidiniz.
+2- Sırasıyla aşağıdaki menu itemlerine gidiniz.
+   Jewellery
+   Necklaces
+   Bib Necklaces
+
+3-En son item e tıklatınız.(Bib Necklaces)
+4-URL de bib kelimesinin geçtiğini Assert ile doğrulayınız.
+
+   moveToelement.Build.Perform -> mouse üzerind eetkisi olusturmak için
+   yeterli.
+
